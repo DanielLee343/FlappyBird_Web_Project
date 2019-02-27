@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+body{
+	margin:0px;
+	overflow:hidden;
+}
+#form1{
+	position:absolute;
+	border:1px solid black;
+	width:360px;
+	height:520px;
+	background-color:rgba(119, 243, 257, 0.75);
+}
+#form1 ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+#form1 ul li, #form2 ul li{
+	margin-top:30px;
+}
+#form1 input[type="button"], #form1 input[type="submit"]{
+	width:150px;
+	height:35px;
+	font:21px "幼圆";
+}
+#form2{
+	position:absolute;
+	border:1px solid black;
+	width:360px;
+	height:560px;
+	background-color:rgba(119, 243, 257, 0.75);
+	display:none;
+}
+#form2 ul{
+	list-style-type:none;
+	margin:0px 0px 0px 60px;
+	padding:0px;
+}
+#form2 input[type="text"], #form2 input[type="password"]{
+	width:130px;
+}
+#form3{
+	position:absolute;
+	border:1px solid black;
+	width:400px;
+	height:580px;
+	background-color:rgba(119, 243, 257, 0.75);
+	display:none;
+}
+#form3 ul{
+	list-style-type:none;
+	margin:0px 0px 0px 60px;
+	padding:0px;
+}
+#form3 ul li{
+	margin-top:20px;
+}
+#form4{
+	position:absolute;
+	border:1px solid black;
+	width:400px;
+	height:580px;
+	background-color:rgba(119, 243, 257, 0.75);
+	display:none;
+}
+
+
+
+h1, h2{
+	font-family:"微软雅黑";
+	text-align:center;
+	margin:0px;
+	line-height:2.5;
+	background-color:rgba(109, 231, 237, 0.8);
+}
+hr{
+	margin:0px;
+}
+span{
+	color:red;
+}
+
+#imgCenter{
+	text-align: center;
+}
+
+#button{
+	text-align: center;
+}
